@@ -1,9 +1,10 @@
 [server]
 maxUploadSize = 1000
 maxMessageSize = 1000
-# On force Streamlit à ne pas rafraîchir la page trop vite
+# On désactive le monitoring de fichiers qui vide le cache par erreur
 runOnSave = false
+# On augmente le temps de réponse du serveur
+fastReruns = false
 
 [browser]
-# Désactive la surveillance qui peut faire bugger l'upload massif
 gatherUsageStats = false

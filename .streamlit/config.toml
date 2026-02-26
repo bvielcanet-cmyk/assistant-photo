@@ -1,10 +1,7 @@
 [server]
 maxUploadSize = 1000
 maxMessageSize = 1000
-# On désactive le monitoring de fichiers qui vide le cache par erreur
 runOnSave = false
-# On augmente le temps de réponse du serveur
-fastReruns = false
 
 [browser]
 gatherUsageStats = false

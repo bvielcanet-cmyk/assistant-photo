@@ -1,10 +1,9 @@
 [server]
 maxUploadSize = 1000
 maxMessageSize = 1000
-# On désactive les protections qui ralentissent le flux de données en direct
-enableCORS = false
-enableXsrfProtection = false
+# On force Streamlit à ne pas rafraîchir la page trop vite
+runOnSave = false
 
 [browser]
-# Permet au navigateur d'envoyer les fichiers plus vite
+# Désactive la surveillance qui peut faire bugger l'upload massif
 gatherUsageStats = false
